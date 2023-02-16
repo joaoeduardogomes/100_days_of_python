@@ -1,3 +1,7 @@
+"""
+O exercício consiste em verificar se um número inserido é par ou ímpar
+"""
+
 # 🚨 Don't change the code below 👇
 number = int(input("Which number do you want to check? "))
 # 🚨 Don't change the code above 👆
