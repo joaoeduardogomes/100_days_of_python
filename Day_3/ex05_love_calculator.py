@@ -14,15 +14,15 @@ msg = ""
 name1 = name1.lower()
 name2 = name2.lower()
 
-t = name1.count("t") + name2.count("t") #3
-r = name1.count("r") + name2.count("r") #2
-u = name1.count("u") + name2.count("u") #2
-e = name1.count("e") + name2.count("e") #3
+t = name1.count("t") + name2.count("t")
+r = name1.count("r") + name2.count("r")
+u = name1.count("u") + name2.count("u")
+e = name1.count("e") + name2.count("e")
 
-l = name1.count("l") + name2.count("l") #1
-o = name1.count("o") + name2.count("o") #3
-v = name1.count("v") + name2.count("v") #0
-# e = 3
+l = name1.count("l") + name2.count("l")
+o = name1.count("o") + name2.count("o")
+v = name1.count("v") + name2.count("v")
+
 true = t + r + u + e
 love = l + o + v + e
 
