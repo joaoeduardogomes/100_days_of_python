@@ -25,7 +25,7 @@ elif (size.upper() != 'S' and add_pepperoni.upper() == 'Y'):
     price += 3
 
 # Extra cheese:
-if (size.upper() == 'S' and extra_cheese.upper() == "Y"):
+if (extra_cheese.upper() == "Y"):
     price += 1
 
 print(f"Your final bill is: ${price}.")
