@@ -98,6 +98,9 @@ elif (lago != "observar"):
 
 porta = str(input("""
         Parece que você é melhor do que eu esperava.
+        Você percebe que há um caminho pouco visível no lago.
+        É uma espécie de 'ponte' oculta pela qual você pode andar até o outro lado.
+        VOcê molha os sapatos na caminhada, mas permanece vivo.
         É a hora da decisão final.
         Você repara que o interior da cabana é tão maltratado pelo tempo quanto o exterior.
         No entanto, você avista três portas impecáveis no outro lado do aposento.
