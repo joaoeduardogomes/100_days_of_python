@@ -11,6 +11,9 @@ def select_choice(num):
         selection = paper
     elif num == 3:
         selection = scissors
+    else:
+        print("Invalid choice. Please try again.")
+        exit()
 
     return selection
 
