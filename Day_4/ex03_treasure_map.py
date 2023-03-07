@@ -1,5 +1,5 @@
 """
-O exercício consiste em gerar um pequeno mapa do tesouro. O 'X', naturalmente, marcaria o local.
+O exercício consiste em gerar um pequeno mapa do tesouro de tamanho 3x3. O 'X', naturalmente, marcaria o local.
 """
 
 # 🚨 Don't change the code below 👇
