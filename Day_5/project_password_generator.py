@@ -21,22 +21,22 @@ nr_symbols = int(input(f"How many symbols would you like?\n"))
 #Hard Level - Order of characters randomised:
 #e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
-password = ""
+password = []#precisei criar uma lista porque não se pode usar 'shuffle' em string.
 
 for letter in range (1, nr_letters + 1):
     pick = choice(letters)
-    password += pick
+    password.append(pick)
 
 for number in range (1, nr_numbers + 1):
     pick = choice(numbers)
-    password += pick
+    password.append(pick)
 
 for symbol in range (1, nr_symbols + 1):
     pick = choice(symbols)
-    password += pick
+    password.append(pick)
 
-chars_list = list(password) #precisei criar uma lista porque não se pode usar 'shuffle' em string.
-shuffle(chars_list)
-randomized_password = "".join(chars_list)
+
+shuffle(password)
+randomized_password = "".join(password)
 
 print(randomized_password)
